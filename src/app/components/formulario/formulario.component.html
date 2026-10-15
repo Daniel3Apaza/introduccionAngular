@@ -1,0 +1,14 @@
+
+
+    <div>
+        <h1>formulario Practico 3</h1>
+        <label>Correo: </label> 
+        <input [(ngModel)]="correo" type="text"><br>
+        <label>Fecha: </label> 
+        <input [(ngModel)]="fechaNacimiento" type="date"><br>
+        <label>Edad: </label> 
+        <input [(ngModel)]="edad" type="number"><br>
+    </div>
+    <button (click)="guardar()">
+        guardar
+    </button>
